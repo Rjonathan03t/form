@@ -14,7 +14,7 @@ const signUpSchema = z.object({
 
 type TSignUpSchema = z.infer<typeof signUpSchema>
 
-export default function ReactHookForm() {
+export default function ReactHookFormWithZod() {
     const {
         register,
         handleSubmit,
